@@ -149,7 +149,7 @@ public class HtmlWodTab extends ComponentEditorTab {
 		}
 
 		restoreSashWeights();
-		hideWodIfNecessary();
+		// hideWodIfNecessary();
 
 		_templateContainer.addControlListener(new ControlListener() {
 			public void controlMoved(ControlEvent e) {
@@ -158,7 +158,7 @@ public class HtmlWodTab extends ComponentEditorTab {
 
 			public void controlResized(ControlEvent e) {
 				HtmlWodTab.this.saveSashWeights();
-				HtmlWodTab.this.hideWodIfNecessary();
+				// HtmlWodTab.this.hideWodIfNecessary();
 			}
 		});
 
